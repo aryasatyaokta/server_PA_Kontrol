@@ -29,5 +29,5 @@ app.post('/register', userController.register);
 app.post('/login', userController.login);
 
 app.listen(5000, () => {
-    console.log(`Server Berjalan di port 5000`);
+    console.log(`Server Berjalan di port 6000`);
 });
