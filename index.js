@@ -25,6 +25,10 @@ mongoose.connect('mongodb://localhost:27017/pedagogical_agent_kontrol', (err) =>
 
 app.use('/api', router);
 
+app.use("/", (req, res) => {
+    res.send("server running")
+})
+
 app.post('/register', userController.register);
 app.post('/login', userController.login);
 
