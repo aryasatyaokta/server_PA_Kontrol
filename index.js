@@ -29,5 +29,5 @@ app.post('/register', userController.register);
 app.post('/login', userController.login);
 
 app.listen(3030, () => {
-    console.log(`Server Berjalan di port 3030`);
+    console.log(`Server Berjalan di portt 3030`);
 });
