@@ -28,6 +28,6 @@ app.use('/api', router);
 app.post('/register', userController.register);
 app.post('/login', userController.login);
 
-app.listen(5000, () => {
-    console.log(`Server Berjalan di port 6000`);
+app.listen(3030, () => {
+    console.log(`Server Berjalan di port 3030`);
 });
