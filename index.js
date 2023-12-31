@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(morgan('tiny'));
 config();
 
-mongoose.connect('mongodb://localhost:27017/pedagogical_agent_kontrol', (err) => {
+mongoose.connect('mongodb+srv://satyaoktaprada:luQQM7BjjXJJWlfu@control-pa-agent.cyeinrk.mongodb.net/', (err) => {
     if (err) {
         console.log('DB Err.');
     } else {
