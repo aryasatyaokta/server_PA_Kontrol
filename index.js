@@ -31,3 +31,5 @@ app.post('/login', userController.login);
 app.listen(3030, () => {
     console.log(`Server Berjalan di portt 3030`);
 });
+
+export default app;
